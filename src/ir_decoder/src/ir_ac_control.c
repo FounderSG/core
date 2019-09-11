@@ -104,7 +104,6 @@ INT8 ir_ac_lib_parse()
             continue;
         }
         // then parse TAG 26 or 33
-        if (context->si.type == SWING_TYPE_NORMAL)
         {
             UINT16 swing_space_size = 0;
             if (tags[i].tag == TAG_AC_SWING_1)
